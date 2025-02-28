@@ -1,0 +1,143 @@
+.movie {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.movie__intro {
+	width: 80%;
+}
+
+.movie__backdrop {
+	object-fit: cover;
+	width: 100%;
+	height: 500px;
+	object-position: 0 35%;
+}
+
+.movie__detail {
+	position: relative;
+	bottom: 225px;
+	display: flex;
+	align-items: center;
+	width: 75%;
+}
+
+.movie__detailLeft {
+	margin-right: 30px;
+}
+
+.movie__poster {
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.86) 0 22px 40px 6px;
+}
+
+.movie__detailRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 450px;
+	color: white;
+}
+
+.movie__detailRightTop > div {
+	margin-bottom: 0.5rem;
+	text-shadow: 0 0 5px #000;
+}
+
+.movie__name {
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.movie__voteCount {
+	margin-left: 1rem;
+}
+
+.movie__genres {
+	margin: 1.25rem 0;
+}
+
+.movie__genre {
+	margin-right: 1rem;
+	padding: 0.5rem;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+.movie__detailRightBottom {
+	flex: 0.8;
+	margin: 2rem 0;
+}
+
+.synopsisText {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.25rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.synopsisText > div:last-of-type {
+	margin-left: auto;
+}
+
+.movie__links {
+	position: relative;
+	bottom: 120px;
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+}
+
+.movie__heading {
+	font-size: 2.2rem;
+}
+
+.movie__Button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	padding: 0.8rem 2rem;
+	border-radius: 20px;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.movie__homeButton {
+	background-color: rgb(255, 0, 0);
+}
+
+.movie__imdbButton {
+	background-color: #f3ce13;
+}
+
+.newTab {
+	margin-left: 1.4rem;
+}
+
+.movie__production {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	width: 85%;
+	margin-bottom: 4rem;
+}
+
+.movie__productionComapany {
+	width: 200px;
+	margin: 2rem;
+}
+
+.productionCompanyImage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
